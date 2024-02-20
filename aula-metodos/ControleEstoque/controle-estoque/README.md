@@ -15,11 +15,15 @@ Os arquivos são:
 *Produto:*
 
 Método ***adicionarProduto(String nomeProduto, String corProduto, String modeloProduto)*** para adicionar o produto, especificando o nome do produto, a cor e o modelo.
+
 Método ***consultarProdutoAtual()*** para consultar o produto cadastrado.
 
 *Estoque:*
 
 Método ***adicionarEstoqueDoProduto()*** para adicionar de 1 em 1 a quantidade do produto no estoque.
+
 Método ***modificarQuantidadeDoProduto(int novoEstoque)*** para modificar a quantidade do estoque total.
+
 Método ***zerarEstoqueDoProduto()*** para zerar o estoque do produto. 
+
 Método ***consultarEstoqueDoProduto()*** para consultar a quantidade em estoque do produto..
