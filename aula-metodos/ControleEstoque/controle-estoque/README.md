@@ -1,18 +1,25 @@
-## Getting Started
+# README - Projeto Controle de Estoque
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém três arquivos Java que compõem um projeto simples de um sistema ERP que adiciona produtos e controla o estoque utilizando conhecimentos adquiridos através do curso *Formação Java Developer* da DIO.
 
-## Folder Structure
+Os arquivos são:
 
-The workspace contains two folders by default, where:
+***Produto.java***: Este arquivo contém a implementação da classe Produto, que representa os produtos do sistema. Ela possui métodos para adicionar e consultar o produto cadastrado, além de ser possivel adicionar o nome, cor e modelo do produto.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+***Estoque.java***: Este arquivo contém a implementação da classe Estoque, que representa o estoque do produto que será adicionado. É possivel adicionar, modificar, consultar e zerar o estoque do produto adicionado.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+***Sistema.java***: Arquivo com a classe Sistema, que contém o método main. No método main, uma instância do produto e estoque são criados, e diversas operações são realizadas, como adicionar um produto especificando o nome, cor e modelo, consultar e modificar o estoque do mesmo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Funcionalidades do Sistema:
 
-## Dependency Management
+*Produto:*
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Método ***adicionarProduto(String nomeProduto, String corProduto, String modeloProduto)*** para adicionar o produto, especificando o nome do produto, a cor e o modelo.
+Método ***consultarProdutoAtual()*** para consultar o produto cadastrado.
+
+*Estoque:*
+
+Método ***adicionarEstoqueDoProduto()*** para adicionar de 1 em 1 a quantidade do produto no estoque.
+Método ***modificarQuantidadeDoProduto(int novoEstoque)*** para modificar a quantidade do estoque total.
+Método ***zerarEstoqueDoProduto()*** para zerar o estoque do produto. 
+Método ***consultarEstoqueDoProduto()*** para consultar a quantidade em estoque do produto..
