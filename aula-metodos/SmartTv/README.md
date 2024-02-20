@@ -8,28 +8,18 @@ Os arquivos são:
 
 ***Usuario.java***: Arquivo com a classe Usuario, que contém o método main para testar a funcionalidade da SmartTv. No método main, uma instância de SmartTv é criada, e diversas operações são realizadas, como ligar a TV, aumentar o volume e escolher um canal específico.
 
-## Compilação:
-
-Compile ambos os arquivos Java utilizando um compilador Java, como o javac.
-
-javac SmartTv.java Usuario.java
-
-## Execução:
-
-Execute o programa Java, especificando a classe principal (Usuario).
-
-java Usuario
-
 ## Funcionalidades da Smart TV:
 
 *Ligar/Desligar:*
 
 Método ***ligar()*** para ligar a TV.
+
 Método ***desligar()*** para desligar a TV.
 
 *Canal:*
 
 Método ***escolherCanal(int novoCanal)*** para escolher um canal específico.
+
 Método ***mudarCanal()*** para mudar para o próximo canal.
 
 *Volume:*
